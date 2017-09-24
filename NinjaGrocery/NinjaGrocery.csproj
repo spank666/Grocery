@@ -89,10 +89,104 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
+    <Content Include="static\css\login.css" />
+    <Content Include="static\css\main_menu_usuarios.css" />
+    <Content Include="static\css\sistema.css" />
+    <Content Include="static\fuentes\fontello.svg" />
+    <Content Include="static\gif\status.gif" />
+    <Content Include="static\imagenes\fav\favicon.ico" />
+    <Content Include="static\imagenes\good_wrong\good.png" />
+    <Content Include="static\imagenes\good_wrong\wrong.png" />
+    <Content Include="static\imagenes\logo\app-ninja-texto.png" />
+    <Content Include="static\imagenes\logo\app_ninja.png" />
+    <Content Include="static\imagenes\logo\logo.png" />
+    <Content Include="static\imagenes\submenus\main_menu_accesos.png" />
+    <Content Include="static\imagenes\submenus\main_menu_accesos_white.png" />
+    <Content Include="static\imagenes\submenus\main_menu_altas.png" />
+    <Content Include="static\imagenes\submenus\main_menu_altas_white.png" />
+    <Content Include="static\imagenes\submenus\main_menu_anual.png" />
+    <Content Include="static\imagenes\submenus\main_menu_anual_white.png" />
+    <Content Include="static\imagenes\submenus\main_menu_apartados.png" />
+    <Content Include="static\imagenes\submenus\main_menu_apartados_white.png" />
+    <Content Include="static\imagenes\submenus\main_menu_bajas.png" />
+    <Content Include="static\imagenes\submenus\main_menu_bajas_white.png" />
+    <Content Include="static\imagenes\submenus\main_menu_bd.png" />
+    <Content Include="static\imagenes\submenus\main_menu_bd_white.png" />
+    <Content Include="static\imagenes\submenus\main_menu_bonos.png" />
+    <Content Include="static\imagenes\submenus\main_menu_bonos_white.png" />
+    <Content Include="static\imagenes\submenus\main_menu_cancelacion.png" />
+    <Content Include="static\imagenes\submenus\main_menu_cancelacion_white.png" />
+    <Content Include="static\imagenes\submenus\main_menu_carrito.png" />
+    <Content Include="static\imagenes\submenus\main_menu_carrito_white.png" />
+    <Content Include="static\imagenes\submenus\main_menu_clientes.png" />
+    <Content Include="static\imagenes\submenus\main_menu_clientes_white.png" />
+    <Content Include="static\imagenes\submenus\main_menu_compras.png" />
+    <Content Include="static\imagenes\submenus\main_menu_compras_white.png" />
+    <Content Include="static\imagenes\submenus\main_menu_config.png" />
+    <Content Include="static\imagenes\submenus\main_menu_config_white.png" />
+    <Content Include="static\imagenes\submenus\main_menu_cortes.png" />
+    <Content Include="static\imagenes\submenus\main_menu_cortes_white.png" />
+    <Content Include="static\imagenes\submenus\main_menu_cproductos.png" />
+    <Content Include="static\imagenes\submenus\main_menu_cproductos_white.png" />
+    <Content Include="static\imagenes\submenus\main_menu_devoluciones.png" />
+    <Content Include="static\imagenes\submenus\main_menu_devoluciones_white.png" />
+    <Content Include="static\imagenes\submenus\main_menu_dia.png" />
+    <Content Include="static\imagenes\submenus\main_menu_dia_white.png" />
+    <Content Include="static\imagenes\submenus\main_menu_existencia.png" />
+    <Content Include="static\imagenes\submenus\main_menu_existencia_white.png" />
+    <Content Include="static\imagenes\submenus\main_menu_haltas.png" />
+    <Content Include="static\imagenes\submenus\main_menu_haltas_white.png" />
+    <Content Include="static\imagenes\submenus\main_menu_hbajas.png" />
+    <Content Include="static\imagenes\submenus\main_menu_hbajas_white.png" />
+    <Content Include="static\imagenes\submenus\main_menu_impresoras.png" />
+    <Content Include="static\imagenes\submenus\main_menu_impresoras_white.png" />
+    <Content Include="static\imagenes\submenus\main_menu_instalaciones.png" />
+    <Content Include="static\imagenes\submenus\main_menu_instalaciones_white.png" />
+    <Content Include="static\imagenes\submenus\main_menu_inventariar.png" />
+    <Content Include="static\imagenes\submenus\main_menu_inventariar_white.png" />
+    <Content Include="static\imagenes\submenus\main_menu_mes.png" />
+    <Content Include="static\imagenes\submenus\main_menu_mes_white.png" />
+    <Content Include="static\imagenes\submenus\main_menu_mi.png" />
+    <Content Include="static\imagenes\submenus\main_menu_mi_white.png" />
+    <Content Include="static\imagenes\submenus\main_menu_niveles.png" />
+    <Content Include="static\imagenes\submenus\main_menu_niveles_white.png" />
+    <Content Include="static\imagenes\submenus\main_menu_perfil.png" />
+    <Content Include="static\imagenes\submenus\main_menu_perfil_white.png" />
+    <Content Include="static\imagenes\submenus\main_menu_precios.png" />
+    <Content Include="static\imagenes\submenus\main_menu_precios_white.png" />
+    <Content Include="static\imagenes\submenus\main_menu_productos.png" />
+    <Content Include="static\imagenes\submenus\main_menu_productos_white.png" />
+    <Content Include="static\imagenes\submenus\main_menu_promociones.png" />
+    <Content Include="static\imagenes\submenus\main_menu_promociones_white.png" />
+    <Content Include="static\imagenes\submenus\main_menu_proveedores.png" />
+    <Content Include="static\imagenes\submenus\main_menu_proveedores_white.png" />
+    <Content Include="static\imagenes\submenus\main_menu_rmercancia.png" />
+    <Content Include="static\imagenes\submenus\main_menu_rmercancia_white.png" />
+    <Content Include="static\imagenes\submenus\main_menu_sesion.png" />
+    <Content Include="static\imagenes\submenus\main_menu_sesion_white.png" />
+    <Content Include="static\imagenes\submenus\main_menu_sucursales.png" />
+    <Content Include="static\imagenes\submenus\main_menu_sucursales_white.png" />
+    <Content Include="static\imagenes\submenus\main_menu_tickets.png" />
+    <Content Include="static\imagenes\submenus\main_menu_tickets_white.png" />
+    <Content Include="static\imagenes\submenus\main_menu_traspaso.png" />
+    <Content Include="static\imagenes\submenus\main_menu_traspaso_white.png" />
+    <Content Include="static\imagenes\submenus\main_menu_urgente.png" />
+    <Content Include="static\imagenes\submenus\main_menu_urgente_white.png" />
+    <Content Include="static\imagenes\submenus\main_menu_usuarios.png" />
+    <Content Include="static\imagenes\submenus\main_menu_usuarios_white.png" />
+    <Content Include="static\imagenes\submenus\main_menu_ventas.png" />
+    <Content Include="static\imagenes\submenus\main_menu_ventas_white.png" />
+    <Content Include="static\imagenes\users\b6530332f551a3b01e5f64847f1d2a345144c788\image.jpeg" />
+    <Content Include="static\js\jquery-2.2.4.min.js" />
+    <Content Include="static\js\login.js" />
+    <Content Include="static\js\main_menu_sesion.js" />
+    <Content Include="static\js\main_menu_usuarios.js" />
+    <Content Include="static\js\sistema.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -101,7 +195,21 @@
   <ItemGroup>
     <Content Include="Views\web.config" />
     <Content Include="packages.config" />
-    <Content Include="Views\Index.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="static\fuentes\fontello.eot" />
+    <Content Include="static\fuentes\fontello.ttf" />
+    <Content Include="static\fuentes\fontello.woff" />
+    <Content Include="static\fuentes\fontello.woff2" />
+    <Content Include="static\fuentes\OpenSans-Bold.ttf" />
+    <Content Include="static\fuentes\OpenSans-BoldItalic.ttf" />
+    <Content Include="static\fuentes\OpenSans-ExtraBold.ttf" />
+    <Content Include="static\fuentes\OpenSans-ExtraBoldItalic.ttf" />
+    <Content Include="static\fuentes\OpenSans-Italic.ttf" />
+    <Content Include="static\fuentes\OpenSans-Light.ttf" />
+    <Content Include="static\fuentes\OpenSans-LightItalic.ttf" />
+    <Content Include="static\fuentes\OpenSans-Regular.ttf" />
+    <Content Include="static\fuentes\OpenSans-Semibold.ttf" />
+    <Content Include="static\fuentes\OpenSans-SemiboldItalic.ttf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -111,8 +219,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Controllers\" />
     <Folder Include="Models\" />
+    <Folder Include="static\imagenes\users\88fa846e5f8aa198848be76e1abdcb7d7a42d292\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
